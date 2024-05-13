@@ -8,10 +8,39 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backdropBlur: {
+        spaceBlur: "32px",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "atf-mobile": "url('/assets/home/background-home-mobile.jpg')",
+        "atf-tablet": "url('/assets/home/background-home-tablet.jpg')",
+        "atf-desktop": "url('/assets/home/background-home-desktop.jpg')",
+        "destination-mobile": "url('/assets/destination/background-destination-mobile.jpg')",
+        "destination-tablet": "url('/assets/destination/background-destination-tablet.jpg')",
+        "destination-desktop": "url('/assets/destination/background-destination-desktop.jpg')",
+        "crew-mobile": "url('/assets/crew/background-crew-mobile.jpg')",
+        "crew-tablet": "url('/assets/crew/background-crew-tablet.jpg')",
+        "crew-desktop": "url('/assets/crew/background-crew-desktop.jpg')",
+        "technology-mobile": "url('/assets/technology/background-technology-mobile.jpg')",
+        "technology-tablet": "url('/assets/technology/background-technology-tablet.jpg')",
+        "technology-desktop": "url('/assets/technology/background-technology-desktop.jpg')",
+      },
+      boxShadow: {
+        spaceBoxShadow: "0px 0px 0px 3rem rgba(255, 255, 255, 0.25)",
+      },
+      colors: {
+        space_primary: "#d0d6f9",
+        space_dark: "#0b0d17",
+        space_light: "#ffffff",
+      },
+      fontFamily: {
+        barlow: ["Barlow", "sans-serif"],
+        barlowCondensed: ["BarlowCondensed", "sans-serif"],
+        firaSansCondensed: ["Fira Sans Condensed", "sans-serif"],
+        bellefair: ["Bellefair", "serif"],
+      },
+      letterSpacing: {
+        spaceKerning: "0.16rem",
       },
     },
   },
